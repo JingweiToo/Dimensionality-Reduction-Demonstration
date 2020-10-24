@@ -1,11 +1,3 @@
-%-------------------------------------------------------------------------%
-%  Plot First Three Components source codes demo version                  %
-%                                                                         %
-%  Programmer: Jingwei Too                                                %
-%                                                                         %
-%  E-Mail: jamesjames868@gmail.com                                        %
-%-------------------------------------------------------------------------%
-
 function jplot(NewFeat,label)
 NormFeat=jMinMaxNormalization(NewFeat);
 N=size(NormFeat,1);
