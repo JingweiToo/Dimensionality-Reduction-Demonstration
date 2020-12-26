@@ -19,7 +19,7 @@
 * *new_feat* : new features ( Instances *x* Features )
 
 
-## # Example 
+### Example 
 ```code
 % Benchmark data set 
 load iris.mat
