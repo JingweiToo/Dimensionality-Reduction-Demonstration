@@ -1,3 +1,4 @@
-function NewFeat=jpca(feat,nPC) 
-NewFeat=pca(feat','NumComponents',nPC);
+
+function new_feat = jpca(feat,num_pc )
+new_feat = pca(feat','NumComponents',num_pc);
 end
